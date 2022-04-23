@@ -19,7 +19,7 @@ This repo contains an Angular skeleton for a Bucket Web application.
 
 - Top structure: generic app component / routes / module / service (include service for the settings and token for the oauth2 'code' flow)
 
-- **landing-page component**: Public part of the web app (including landing page with login button)
+- **public module**: Public part of the web app (including landing page with login button)
 - **myapp module**: Private part of the web app (including Dashboard as a logged-in home page)
     - Bucket service to access Bucket resources
 - **shared module**: the auth guard to ensure private pages remain private, and some UI components provided with the template
